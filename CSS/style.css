@@ -9,3 +9,32 @@ h2 {
 #services {
   color: green;
 }
+
+/* li:nth-child(1) {
+  color: purple;
+} */
+
+/* #google-link:link {
+  color: blue;
+}#google-link:hover {
+  color: green;
+}
+
+#google-link:visited {
+  color: red;
+} */
+
+h2 + a {
+  color: green;
+}
+
+textarea ~ button {
+  color: purple;
+}
+
+ul > li {
+  color: blue;
+}
+ol li {
+  color: green;
+}
