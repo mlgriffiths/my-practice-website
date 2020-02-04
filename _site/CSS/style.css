@@ -1,0 +1,48 @@
+h2 {
+  color: red;
+}
+
+h2[class=subtitle] {
+  color: blue;
+}
+
+/*#services {
+  color: green;
+} */
+
+/* li:nth-child(1) {
+  color: purple;
+} */
+
+/* #google-link:link {
+  color: blue;
+}#google-link:hover {
+  color: green;
+}
+
+#google-link:visited {
+  color: red;
+} */
+
+h2 + a {
+  color: green;
+}
+
+textarea ~ button {
+  color: purple;
+}
+
+ul > li {
+  color: blue;
+}
+ol li {
+  color: green;
+}
+
+img[src*="/images/"] {
+  border: 10px solid black;
+}
+
+h2[class~=article-subtitle] {
+  background: #6f3;
+}

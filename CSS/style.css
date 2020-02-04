@@ -2,13 +2,13 @@ h2 {
   color: red;
 }
 
-.subtitle {
+h2[class=subtitle] {
   color: blue;
 }
 
-#services {
+/*#services {
   color: green;
-}
+} */
 
 /* li:nth-child(1) {
   color: purple;
@@ -37,4 +37,12 @@ ul > li {
 }
 ol li {
   color: green;
+}
+
+img[src*="/images/"] {
+  border: 10px solid black;
+}
+
+h2[class~=article-subtitle] {
+  background: #6f3;
 }
