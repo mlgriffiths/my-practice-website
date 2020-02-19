@@ -1,48 +1,22 @@
-h2 {
-  color: red;
+#title {
+  color: rgb(191,2,153);
 }
 
-h2[class=subtitle] {
-  color: blue;
+.subtitle {
+  color: rgb(230,55,250);
 }
 
-/*#services {
-  color: green;
-} */
-
-/* li:nth-child(1) {
-  color: purple;
-} */
-
-/* #google-link:link {
-  color: blue;
-}#google-link:hover {
-  color: green;
+.body {
+  background: rgb(30,201,252);
 }
 
-#google-link:visited {
-  color: red;
-} */
-
-h2 + a {
-  color: green;
+#table {
+  background-color: rgb(237,180,47);
 }
 
-textarea ~ button {
-  color: purple;
-}
-
-ul > li {
-  color: blue;
-}
-ol li {
-  color: green;
-}
-
-img[src*="/images/"] {
-  border: 10px solid black;
-}
-
-h2[class~=article-subtitle] {
-  background: #6f3;
+#service-image {
+  height: 400px;
+  width: 70%;
+  background: url(/home/mlgriffiths/repos/my-practice-website/images/img-2.jpg);
+  background-repeat: repeat;
 }
